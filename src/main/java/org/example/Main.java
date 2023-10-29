@@ -45,22 +45,22 @@ public class Main {
             if (str.contains("+")) {
                 int resultar = num1 + num2;
                 System.out.println(resultar);
-                return Integer.toString(resultar);
+
             }
             if (str.contains("-")) {
                 int resultar = num1 - num2;
                 System.out.println(resultar);
-                return Integer.toString(resultar);
+
             }
             if (str.contains("/")) {
                 int resultar = num1 / num2;
                 System.out.println(resultar);
-                return Integer.toString(resultar);
+
             }
             if (str.contains("*")) {
                 int resultar = num1 * num2;
                 System.out.println(resultar);
-                return Integer.toString(resultar);
+
             }
 
         }
@@ -76,7 +76,7 @@ public class Main {
                 }
                 Roman resultRoman = Roman.values()[ordinal];
                 System.out.println(resultRoman);
-                return resultRoman.toString();
+
             }
             if (str.contains("-")) {
                 int result = num1 - num2;
@@ -87,7 +87,7 @@ public class Main {
                 }
                 Roman resultRoman = Roman.values()[ordinal];
                 System.out.println(resultRoman);
-                return resultRoman.toString();
+
             }
             if (str.contains("*")) {
                 int result = num1 * num2;
@@ -98,7 +98,7 @@ public class Main {
                 }
                 Roman resultRoman = Roman.values()[ordinal];
                 System.out.println(resultRoman);
-                return resultRoman.toString();
+
             }
             if (str.contains("/")) {
                 int result = num1 / num2;
@@ -109,7 +109,7 @@ public class Main {
                 }
                 Roman resultRoman = Roman.values()[ordinal];
                 System.out.println(resultRoman);
-                return resultRoman.toString();
+
 
             }
         }
